@@ -6,7 +6,7 @@
       "messages": [
         {
           "data": {
-            "content": null,
+            "content": "backups.json is the full backup of all the webhook information for\n> #oem-essentials\n> #oem-officer-resources\n> #weakaura-quick-links\n\n**To do...**\n> Boss thread templates\n> Catalog of specific boss completed templates\n> github version management and 'offsite' backup\n> webhooks for Google Sheets to push notifications of\n>       comp changes\n>       assignment updates\n> webhook for JSON commits\n_ _",
             "embeds": [
               {
                 "title": "OE Master Raidbook",
@@ -33,6 +33,17 @@
                 "color": 16774400
               },
               {
+                "title": "GitHub JSON Backup",
+                "description": "Owned by Jake",
+                "url": "https://github.com/TheWolfIsLoose/OE-Midweek-JSON.git",
+                "color": 65280
+              },
+              {
+                "title": "Discord Markdown Resource",
+                "url": "https://bots.ondiscord.xyz/info/markdown",
+                "color": null
+              },
+              {
                 "title": "OEM Trial Welcome",
                 "description": "Moved this information to #oem-essentials",
                 "url": "https://docs.google.com/document/d/1KsjPncqIenptvlG1gKZf0gJiVeyUjOq1KMTlSlQ3LpI/edit",
@@ -40,7 +51,7 @@
               }
             ]
           },
-          "reference": "https://discord.com/channels/123870919578877952/915350217266720778/917288433108529172"
+          "reference": ""
         }
       ],
       "targets": [
