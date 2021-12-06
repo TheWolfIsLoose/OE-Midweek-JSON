@@ -185,6 +185,242 @@
           "url": "https://discord.com/api/webhooks/917256320732770335/yhq2HTDfaa0JW-oenaRYS9pBfwKnmKuX1zuEYSuCCQL-1PHSfaJlxDFkFaM4mfKtWznK"
         }
       ]
+    },
+    {
+      "name": "OEM Sylvanas Tester",
+      "messages": [
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/fyG3ccZ.png"
+                }
+              },
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/RamOWPk.png"
+                }
+              },
+              {
+                "title": "Fight Notes",
+                "description": "*Maybe there is some copy that we can put into this place that talks about general fight notes. How do we want to utilize this space?*",
+                "color": null,
+                "fields": [
+                  {
+                    "name": "References",
+                    "value": "https://www.youtube.com/watch?v=rjNHqKOGLZE"
+                  },
+                  {
+                    "name": "Phase Timestamps",
+                    "value": "1. Phase 1 (80%) <Reference timestamp>\n2. Phase 2 (gauntlet) <Reference timestamp>\n3. Phase 3"
+                  }
+                ],
+                "timestamp": "2021-12-06T22:21:00.000Z"
+              },
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/M25xCv0.png"
+                }
+              },
+              {
+                "title": "Phase 1 Strategy Notes",
+                "description": "1. Barbed Arrow will randomly stack on players. This is a heavy dot with an infinite duration that stacks; think Kaal bleeds.\n2. Domination Arrows always chain to the closest person. Getting chained clears your Barbed Arrow bleed. We may need to use this to manage the dot, may not. On testing barbed arrow did not stack fast enough for this to matter.\n3. Veil of Darkness (the huge black circle) won’t kill you when you get hit, but if multiple people get clipped by it, the debuff will spread and cause massive healing problems. This can wipe us very fast and comes ~15s after chains spawn.\n4. You cannot melee your own domination arrow, if you get in melee range of it you will be instantly killed. You can melee anyone else’s arrow. This is important for the intermission at the end of p1 when everyone will get chained\n5. The tankbuster is unique on this fight. If she has 3 or more stacks of Heartseeker, she replaces her next auto attack with a tankbuster. This is annoyingly inconsistent.\n6. The arena is huge and wailing arrow’s falloff radius is similar to xymox bomb. Tanks don’t go too far with this or you’ll cause range issues.\n7. When the boss hits 80% we’ll get an intermission where every player is chained and the boss launches huge massacre style lines. She will also cast a Banshee wail which does damage based on missing HP and splashes within 5 yards, so some big throughput CDs will be saved for this phase.",
+                "color": null,
+                "fields": [
+                  {
+                    "name": "Failure Points",
+                    "value": "Spreading Veil of Darkness\nGetting pulled into your chain\nNot killing chains fast enough"
+                  },
+                  {
+                    "name": "Goals",
+                    "value": "Don’t push with chains alive"
+                  }
+                ]
+              },
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/XlEAuSa.png"
+                }
+              },
+              {
+                "title": "Phase 2 Strategy Notes",
+                "description": "Priority 1 - Souljudge - Crushing Dread does increasing damage over time, dispel jumps to a new target and resets stacks (removed on mob death).\nPriority 2 - Summoner - Summons 4 orbs that amp enemy damage every 6 seconds and minor explosion on death. Also have a moderate damage Curse that extends for every cast (stop casting or decurse)\nPriority 3 - Goliath - Damage/attack speed increase per melee (reset on new target like Hungering)\n(minor) Vanguard - does a minor melee impact (don’t tank on ranged)\n(minor) Hopebreaker - Does a channel (stun/grip)",
+                "color": null,
+                "fields": [
+                  {
+                    "name": "Platform Set 1",
+                    "value": "1. Start with Jaina Bridge and dodging waves while we cross\n2. Continue running+dodging across first chain platform\n3. After some RP, Thrall spawns a bridge. 10 seconds later she starts to cast ruin, which is a 5 sec cast that will instant wipe if not kicked."
+                  },
+                  {
+                    "name": "1st Burn",
+                    "value": "4. On this platform we dps Sylvanas from 84% to ~80%. She will continue to do Shadow Daggers and Veil of Darkness (see p1)\n5. At 75.5% she will cast a Banshee Wail. We need to spread on the chain platform for this and be topped off.\n6. There will be some RP while thrall spawns a bridge to a platform with adds.",
+                    "inline": true
+                  },
+                  {
+                    "name": "Platform Set 2",
+                    "value": "7. Platform 1 will have a Souljudge and a Goliath with multiple small adds. We have 30 seconds to clean up the adds and spawn a new bridge or we will wipe to ruin. There will be Veil of Night casts to dodge on this platform."
+                  },
+                  {
+                    "name": "2nd Burn",
+                    "value": "8. After all the adds are dead, Jaina will spawn a bridge which we again have 15 seconds to cross and kick. If we don’t kill the adds within 40s, Sylv will cast Ruin whether a bridge is spawned or not and wipe us.\n9. Platform 2 will have a Summoner and a Goliath with small adds. The same 30s limit applies here. We will get a Veil of Night on this platform.\n10. Once the adds on platform 2 are dead, but before crossing the bridge, sylvanas will cast a banshee wail, which we need to spread for. After that cast we will cross and kick again.",
+                    "inline": true
+                  },
+                  {
+                    "name": "Clean Up",
+                    "value": "11. Platform 3 (final) has Souljudge and a Summoner with small adds. This platform is the hardest of the 3. We will get a veil of night with orbs from the summoner as well as Crushing Dread from the souljudge. We will use big raid CDs here. The same 30s timer applies from earlier platforms.\n12. We cross another bridge and kick. We couldn’t find videos/logs beyond this point which weren’t bugged so after this is unknown."
+                  },
+                  {
+                    "name": "Failure Points",
+                    "value": "Spreading Veil of Darkness\nGetting hit by Haunting Wave"
+                  },
+                  {
+                    "name": "Goals",
+                    "value": "Don't Die"
+                  }
+                ]
+              },
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/rrwdmQi.png"
+                }
+              },
+              {
+                "title": "Phase 3 Strategy Notes",
+                "description": "**__WE ARE NOT JUMPING TO OTHER PLATFORMS TO DEAL WITH MECHANICS__**\n\n__1. Veil of Darkness (the black circle) will spawn on and follow two players. They cannot dodge it (might be able to immune/turtle it?), but everyone around them SHOULD dodge it. So if you are targeted by Veil of Darkness, stand still until you're hit by it. Once the debuff goes out, you will need to move into the raid group to survive Wailing Arrow, so spreading this in P3 is unavoidable.__\n\n2. The tankbuster in this phase behaves the same as p1, except stacks are permanent and dispellable. Being dispelled drops a puddle that can be picked up by running into it again. Tanks will have to control these to minimize space usage.\n\n3.  For Wailing Arrow, the raid will stack in the corner closest to the center platform, while the 3 targets will go to each other corner (first targetted goes left, 2nd targeted goes middle, 3rd targeted goes right).",
+                "color": null,
+                "fields": [
+                  {
+                    "name": "Ability Order Per Platform",
+                    "value": "1. Bane Arrows (dodge)\n2. Shadow Dagger (dodge)\n3. Banshee's Scream x2 - 5 seconds apart (spread and STAY SPREAD until Veil of Darkness is out)\n4. Veil of Darkness\n5. Wailing Arrow x3 staggered\n6. Shadow Dagger (dodge)\n7. Bane Arrows (dodge)\n8. Banshee's Fury (dispel stacks)\n9. Raze"
+                  },
+                  {
+                    "name": "Failure Points",
+                    "value": "- getting hit by Veil of Darkness if you're not targeted (spreading is intended on the two targets hit).\n- Having lots of stacks of Banshee’s Bane during Banshee’s Fury\n- Cleaving Banshee’s Scream"
+                  },
+                  {
+                    "name": "Goals",
+                    "value": "1. Manage Banshees Bane pools well"
+                  }
+                ]
+              }
+            ]
+          },
+          "reference": ""
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/l5aAbMk.png"
+                }
+              },
+              {
+                "title": "WeakAuras",
+                "color": 16711680,
+                "fields": [
+                  {
+                    "name": "Sylvanas Mythic Halcyon Barbed Arrow LEFT/RIGHT",
+                    "value": "https://wago.io/p99rsw1p_"
+                  },
+                  {
+                    "name": "Dark Sentinel Fixate",
+                    "value": "https://wago.io/TWma7m21j"
+                  }
+                ]
+              }
+            ]
+          },
+          "reference": ""
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/BKkuCrW.png"
+                }
+              },
+              {
+                "title": "Speed Boosts",
+                "color": 16711680,
+                "fields": [
+                  {
+                    "name": "P1",
+                    "value": "Windrunner 1 - Milksupply\nVeil 1 - Atsuu\nWindrunner 2 - Ripburst\nVeil 2 - Zhot\nWindrunner 3 - \nVeil 3 - Milksupply\nWindrunner 4 - Avatardan",
+                    "inline": true
+                  },
+                  {
+                    "name": "P2",
+                    "value": "Start of split 1 - Atsuu\nSplit 1 veils - Zhot/Ripburst\nStart of split 2 - Milksupply\nSplit 2 veils - Atsuu/Avatardan",
+                    "inline": true
+                  },
+                  {
+                    "name": "P3",
+                    "value": "3rd platform immunity soaks - Milksupply\n3rd platform assigned soaks - Zhot"
+                  }
+                ]
+              },
+              {
+                "title": "Phase 3 Platform Positions",
+                "description": "1: Zarantai\n2: Jakerator\n3: Ugmo\n4: Draddog\n5: Sethera\n6: Shamlessness\n7: Sandwichman\n8: Darlayys\n9: Oglethorny\n10: Babylonius\n11: Seaborg\n12: Milksupply\n13: Celinamuna\n14: Nxkita\n15: Kartra\n16: Edennill\n17: Zhot\n18: Atsuu\n19: Schlimmy\n20: Cleoboltra",
+                "color": 16711680,
+                "image": {
+                  "url": "https://media.discordapp.net/attachments/852604884238860288/892130285846683668/sylv_template.png?width=960&height=540"
+                }
+              }
+            ]
+          },
+          "reference": ""
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "title": "Pre-Fight Checklist",
+                "description": "> Check your Dom shards, switch your blood dps shard for the frost shield shards\n> Vantus rune\n> Interrupt macro \n> Bait the first jump\n> Chains>Sentinels>Sylvanas\n> Check ert for sides on P2 chains\n> Decurse on P2 chains (right side splits)\n> Check Merciless soaks and veil spread spots",
+                "color": null
+              }
+            ]
+          },
+          "reference": ""
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "title": "Change Log",
+                "color": null,
+                "fields": [
+                  {
+                    "name": "**1.0.3 (11/8/21) : FARM UPDATE**",
+                    "value": "Updates to come for speed strat."
+                  }
+                ]
+              }
+            ]
+          },
+          "reference": ""
+        }
+      ],
+      "targets": [
+        {
+          "url": "https://discord.com/api/webhooks/917245525378629682/in1Fi1HmzDFUVJ9QBXdq6XFXoO4mgQ3cA0WORgc5es8x198tZ0U6-td3L8jizO1uAZd5"
+        }
+      ]
     }
   ]
 }
