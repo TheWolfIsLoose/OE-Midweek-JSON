@@ -106,10 +106,16 @@
                 "description": "Anyone is able to upload logs for a raid night. We ask that you appropriately label the logs as Public and OE Midweek.\n\n**[Guild](https://www.warcraftlogs.com/guild/id/5536)\n[Midweek](https://www.warcraftlogs.com/guild/id/602294)\n[Link to join to log to the guild on WCL](https://www.warcraftlogs.com/guild/autojoin/602294/Pk6j4n1d)**",
                 "color": 14680319,
                 "timestamp": "2021-12-06T02:59:00.000Z"
+              },
+              {
+                "title": "SquadOV",
+                "description": "A really cool tool that we're exploring using is [SquadOV](https://www.squadov.gg/). Setting up the program is explained pretty well through the website and associated Discord. Once you have the program installed, you'll want to join the OE Midweek squad using the following link: https://app.squadov.gg/link/Ejklt1BmtDkv",
+                "color": 16776960,
+                "timestamp": "2021-12-11T23:14:00.000Z"
               }
             ]
           },
-          "reference": "917273419005980692"
+          "reference": ""
         },
         {
           "data": {
@@ -129,7 +135,7 @@
               }
             ]
           },
-          "reference": "917273419609952256"
+          "reference": ""
         }
       ],
       "targets": [
