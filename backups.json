@@ -65,7 +65,7 @@
       "messages": [
         {
           "data": {
-            "content": "_ _\n__**Welcome to OE Midweek!**__\nWe’re excited to have you with us. In the following sections, you'll find relevant information for everything OE Midweek. Please reach out to one of the following if you have any questions.\n\nWelcome to Occasional Excellence,  we're glad you’re here!\n\n**The Officer Team**\n> Babylonius - Guild Master\n> Jake\n> Kojiyama (Kartra)\n> Zarantai\n> Paoanii (Paninii/Casterdebuff)\n> Schlim\n> Morgrom\n_ _",
+            "content": "_ _\n__**Welcome to OE Midweek!**__\nWe’re excited to have you with us. In the following sections, you'll find relevant information for everything OE Midweek. Please reach out to one of the following if you have any questions.\n\nWelcome to Occasional Excellence,  we're glad you’re here!\n\n**The Officer Team**\n> Babylonius - Guild Master\n> Jake\n> Kojiyama (Kartra)\n> Zarantai\n> Schlim\n> Morgrom\n\nSpecial Advisor\n> Paoanii (Paninii/Casterdebuff)\n_ _",
             "embeds": [
               {
                 "title": "Trialing with OE Midweek",
@@ -112,6 +112,13 @@
                 "description": "A really cool tool that we're exploring using is [SquadOV](https://www.squadov.gg/). Setting up the program is explained pretty well through the website and associated Discord. Once you have the program installed, you'll want to join the OE Midweek squad using the following link: https://app.squadov.gg/link/Ejklt1BmtDkv",
                 "color": 16776960,
                 "timestamp": "2021-12-11T23:14:00.000Z"
+              },
+              {
+                "title": "Private Feedback Form",
+                "description": "You can use this link to provide feedback directly to the officer team. This form allows you to provide this feedback anonymously.",
+                "url": "https://docs.google.com/forms/d/e/1FAIpQLScHXHkbLp15IW9Dw8qziE8aVtMpuCP8XnDWP94quTpbioAfUw/viewform",
+                "color": 16711680,
+                "timestamp": "2022-01-08T23:05:00.000Z"
               }
             ]
           },
@@ -140,7 +147,7 @@
       ],
       "targets": [
         {
-          "url": "https://discord.com/api/webhooks/917176391538208780/lZCpOZXoC0kyVw_cBulob4rPKpncT4T9a8jnfy3RFzdsDJRUMswuryGQfc7-9cnX6-Tm"
+          "url": "https://discord.com/api/webhooks/929511524941303848/ZqV5OudHBw1iaOU99_2MvE7HJBCbbR3bJGULhNnne4nr2-Yq22zv_-Be57vdzclyJUF3"
         }
       ]
     },
@@ -407,6 +414,227 @@
           "data": {
             "content": null,
             "embeds": [
+              {
+                "title": "Change Log",
+                "color": null,
+                "fields": [
+                  {
+                    "name": "**1.0.3 (11/8/21) : FARM UPDATE**",
+                    "value": "Updates to come for speed strat."
+                  }
+                ]
+              }
+            ]
+          },
+          "reference": ""
+        }
+      ],
+      "targets": [
+        {
+          "url": "https://discord.com/api/webhooks/917245525378629682/in1Fi1HmzDFUVJ9QBXdq6XFXoO4mgQ3cA0WORgc5es8x198tZ0U6-td3L8jizO1uAZd5"
+        }
+      ]
+    },
+    {
+      "name": "SotFO Template",
+      "messages": [
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/hvbKdFN.png"
+                }
+              },
+              {
+                "title": "Fight Notes",
+                "description": "*Maybe there is some copy that we can put into this place that talks about general fight notes. How do we want to utilize this space?*",
+                "color": null,
+                "fields": [
+                  {
+                    "name": "References",
+                    "value": "Lorem Ipsum"
+                  },
+                  {
+                    "name": "Phase Timestamps",
+                    "value": "Lorem Ipsum"
+                  }
+                ],
+                "timestamp": "2021-12-06T22:21:00.000Z"
+              },
+              {
+                "color": 10092543,
+                "image": {
+                  "url": "https://i.imgur.com/vr5qUH1.png"
+                }
+              },
+              {
+                "title": "Phase 1",
+                "description": "Lorem Ipsum",
+                "color": 10092543,
+                "fields": [
+                  {
+                    "name": "Failure Points",
+                    "value": "Lorem Ipsum"
+                  },
+                  {
+                    "name": "Goals",
+                    "value": "Lorem Ipsum"
+                  }
+                ]
+              },
+              {
+                "title": "Phase 2",
+                "description": "Lorem Ipsum",
+                "color": 10092543,
+                "fields": [
+                  {
+                    "name": "Lorem Ipsum 1",
+                    "value": "Lorem Ipsum 1"
+                  },
+                  {
+                    "name": "Loreum Ipsum 2",
+                    "value": "Loreum Ipsum 2",
+                    "inline": true
+                  },
+                  {
+                    "name": "Lorem Ipsum 3",
+                    "value": "Lorem Ipsum 3"
+                  },
+                  {
+                    "name": "Lorem Ipsum 4",
+                    "value": "Lorem Ipsum 4",
+                    "inline": true
+                  },
+                  {
+                    "name": "Lorem Ipsum 5",
+                    "value": "Lorem Ipsum 5"
+                  },
+                  {
+                    "name": "Lorem Ipsum 6",
+                    "value": "Lorem Ipsum 6"
+                  },
+                  {
+                    "name": "Lorem Ipsum 7",
+                    "value": "Loreum Ipsum 7"
+                  }
+                ]
+              },
+              {
+                "title": "Phase 3 Strategy Notes",
+                "description": "Loreum Ipsum",
+                "color": 10092543,
+                "fields": [
+                  {
+                    "name": "Lorem Ipsum 1",
+                    "value": "Lorem Ipsum 1"
+                  },
+                  {
+                    "name": "Lorem Ipsum 2",
+                    "value": "Lorem Ipsum 2"
+                  },
+                  {
+                    "name": "Lorem Ipsum 3",
+                    "value": "Lorem Ipsum 3"
+                  }
+                ]
+              }
+            ]
+          },
+          "reference": ""
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": 16750899,
+                "image": {
+                  "url": "https://i.imgur.com/9fJkXzv.png"
+                }
+              },
+              {
+                "title": "Lorem Ipsum",
+                "color": 16750899,
+                "fields": [
+                  {
+                    "name": "Lorem Ipsum 1",
+                    "value": "Lorem Ipsum 1"
+                  },
+                  {
+                    "name": "Lorem Ipsum 2",
+                    "value": "Lorem Ipsum 2"
+                  }
+                ]
+              }
+            ]
+          },
+          "reference": ""
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": 10092543,
+                "image": {
+                  "url": "https://i.imgur.com/pY5Ci4Y.png"
+                }
+              },
+              {
+                "title": "Lorem Ipsum 1",
+                "color": 10092543,
+                "fields": [
+                  {
+                    "name": "Lorem Ipsum 1",
+                    "value": "Lorem Ipsum 1"
+                  },
+                  {
+                    "name": "Lorem Ipsum 2",
+                    "value": "Lorem Ipsum 2",
+                    "inline": true
+                  },
+                  {
+                    "name": "Lorem Ipsum 3",
+                    "value": "Lorem Ipsum 3"
+                  }
+                ]
+              }
+            ]
+          },
+          "reference": ""
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/XEIXNtq.png"
+                }
+              },
+              {
+                "title": "Lorem Ipsum",
+                "description": "Lorem Ipsum",
+                "color": null
+              }
+            ]
+          },
+          "reference": ""
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/nkc6E7I.png"
+                }
+              },
               {
                 "title": "Change Log",
                 "color": null,
