@@ -1,0 +1,1626 @@
+{
+  "version": 7,
+  "backups": [
+    {
+      "name": "OEM Officers Resources",
+      "messages": [
+        {
+          "data": {
+            "content": "backups.json is the full backup of all the webhook information for\n> #oem-essentials\n> #oem-officer-resources\n> #weakaura-quick-links\n\n**To do...**\n> Boss thread templates\n> Catalog of specific boss completed templates\n> github version management and 'offsite' backup\n> webhooks for Google Sheets to push notifications of\n>       comp changes\n>       assignment updates\n> webhook for JSON commits\n_ _",
+            "embeds": [
+              {
+                "title": "OE Master Raidbook",
+                "description": "Owned by Jake",
+                "url": "https://docs.google.com/spreadsheets/d/1in50iPkKKFQ_q9WmNFostrLBd_nmerzQ9GcOZ_XDpBQ/edit#gid=752570386",
+                "color": 1376000
+              },
+              {
+                "title": "Public Loot Needs",
+                "description": "Owned by Koji",
+                "url": "https://docs.google.com/spreadsheets/d/1frswwMADqiGDihLRL_DPBkWtUoSl4AAjO_8w5UMfmVU/edit#gid=1028260473",
+                "color": 1376000
+              },
+              {
+                "title": "SoD Healer Sheet",
+                "description": "Owned by Zarantai",
+                "url": "https://docs.google.com/spreadsheets/d/1EJY1lfVvhpPXdMjMTVXW4F-uDo9Snse-9LoxfddSaIE",
+                "color": 1376000
+              },
+              {
+                "title": "9.2 Strat Prep Doc",
+                "description": "Owned by Schlim",
+                "url": "https://docs.google.com/document/d/1ebadpYieLtm-UM2TirVe_IwM_V3l43TvJ0VGMe1oN_M/edit?usp=sharing",
+                "color": 16774400
+              },
+              {
+                "title": "GitHub JSON Backup",
+                "description": "Owned by Jake",
+                "url": "https://github.com/TheWolfIsLoose/OE-Midweek-JSON.git",
+                "color": 65280
+              },
+              {
+                "title": "Discord Markdown Resource",
+                "url": "https://bots.ondiscord.xyz/info/markdown",
+                "color": null
+              },
+              {
+                "title": "OEM Trial Welcome",
+                "description": "Moved this information to #oem-essentials",
+                "url": "https://docs.google.com/document/d/1KsjPncqIenptvlG1gKZf0gJiVeyUjOq1KMTlSlQ3LpI/edit",
+                "color": 16711680
+              }
+            ]
+          },
+          "reference": ""
+        }
+      ],
+      "targets": [
+        {
+          "url": "https://discord.com/api/webhooks/917279843631108177/_TknWkeEJ9m-ocPj-n0Bga6vE6HOBUmeP09QGGzAiqBILiKDxVml3yW96xCH6IRlWhTt"
+        }
+      ]
+    },
+    {
+      "name": "OEM Essentials",
+      "messages": [
+        {
+          "data": {
+            "content": "_ _\n__**Welcome to OE Midweek!**__\nWe’re excited to have you with us. In the following sections, you'll find relevant information for everything OE Midweek. Please reach out to one of the following if you have any questions.\n\nWelcome to Occasional Excellence,  we're glad you’re here!\n\n**The Officer Team**\n> Babylonius - Guild Master\n> Jake\n> Kojiyama (Kartra)\n> Zarantai\n> Schlim\n> Morgrom\n\nSpecial Advisor\n> Paoanii (Paninii/Casterdebuff)\n_ _",
+            "embeds": [
+              {
+                "title": "Trialing with OE Midweek",
+                "description": "Trials aren’t rushed but take at least two full weeks during progression, and more during farm.  We like to take as long as it takes to decide if we are a good fit for each other.  Trials are treated as full members in every way and are allowed to roll on loot and use guild-provided flasks from cauldrons.\n\nIf you are looking for feedback on your trial, please reach out to an officer or anyone in the guild of your class/role.  All are more than happy to walk through logs with you and let you know where you might be able to improve your performance. \n\nTrials are expected to be on the server for the duration of their trial period. This is because the community is very important to us and we want you to be not only part of our raid but part of our wider guild community.  If you have extenuating circumstances that will delay your transfer to Turalyon by a week or more, please reach out.\n\n**Turalyon is our home and it's a small server economically. Consider researching raiding materials costs to see if it is advantageous for you to bring over materials with you.**",
+                "color": 14680319,
+                "timestamp": "2021-12-06T05:19:00.000Z"
+              },
+              {
+                "title": "The Spreadsheet",
+                "description": "**[Raider Public Raidbook](https://docs.google.com/spreadsheets/d/1frswwMADqiGDihLRL_DPBkWtUoSl4AAjO_8w5UMfmVU/edit#gid=440221849?usp=sharing)**\n\nThis Google Sheets book contains relevant information regarding raider boss needs, raid comps, boss progression rotations, and boss-specific assignments where necessary. Input what bosses you would like to be in for.  You will also find a tab for boss rotations. Raid comp is typically updated a few hours before the raid.  When farming, rotations are based on a combination of comp requirements and loot needs. \n\nReach out to any of the officers if you have specific questions.",
+                "color": 14680319,
+                "timestamp": "2021-12-06T03:00:00.000Z"
+              },
+              {
+                "title": "Required Addons",
+                "description": "WeakAuras is a required addon. WeakAuras will be provided on a boss-by-boss basis in our strategy threads. \n\n**[Method Raid Tools](https://www.curseforge.com/wow/addons/method-raid-tools)**\n**[RCLootCouncil](https://www.curseforge.com/wow/addons/rclootcouncil)**\n**[RCLootCouncil - GroupGear](https://www.curseforge.com/wow/addons/rclootcouncil-groupgear)**",
+                "color": 14680319,
+                "timestamp": "2021-12-06T02:59:00.000Z"
+              },
+              {
+                "title": "Looting Guidelines",
+                "description": "OE Midweek's looting system is LootCouncil. We take every precaution to make sure that loot is distributed in an equitable fashion that gives the most benefit to the *raid team*. Trinkets and Tier often be on a case-by-case basis.\n\nUse notes anywhere you can to give Council a clear idea of how you intend to use the item. Keep non-productive notes to a minimum.\n_ _",
+                "color": 14680319,
+                "fields": [
+                  {
+                    "name": "*Armor*",
+                    "value": "__**Major**__\nAny piece of armor that would be an upgrade of 1 tier of item level [Heroic to Mythic].\n> In the event of tier pieces, any piece that would result in the completion of a bonus like 2pc or 4pc.\n\n__**Minor**__\nAny piece of armor that would be an upgrade of less than 1 tier of item level [Mythic to End-Boss Mythic]\n> In the event of tier pieces, any piece that would not result in the completion of a bonus like 1pc or 3pc.\n> Any piece of gear that would be a stat 'sidegrade'.\n\n__**Offspec & .Transmog**__\nSelf-Explanatory"
+                  },
+                  {
+                    "name": "*Weapons and Trinkets*",
+                    "value": "__**Major**__\nMain-hand upgrade of 0.5 or more tiers of item level. [Example: 226 to 233]\n\n__**Minor**__\nOff-hands, less than 0.5 tier of item level upgrade, or stat side-grades.\n\n__**Offspec & Transmog**__\nSelf-Explanatory\n\n__**Trinkets**__\nTrinkets are evaluated on a case-by-case basis because there is a disparate impact on which trinkets are \"good\" and whom they are desirable for. Try to follow the above guidelines as closely as possible, but trinket design tier over tier doesn't lend itself to easy systematic looting rules."
+                  }
+                ],
+                "timestamp": "2021-12-06T03:00:00.000Z"
+              },
+              {
+                "title": "Warcraft Logs",
+                "description": "Anyone is able to upload logs for a raid night. We ask that you appropriately label the logs as Public and OE Midweek.\n\n**[Guild](https://www.warcraftlogs.com/guild/id/5536)\n[Midweek](https://www.warcraftlogs.com/guild/id/602294)\n[Link to join to log to the guild on WCL](https://www.warcraftlogs.com/guild/autojoin/602294/Pk6j4n1d)**",
+                "color": 14680319,
+                "timestamp": "2021-12-06T02:59:00.000Z"
+              },
+              {
+                "title": "SquadOV",
+                "description": "A really cool tool that we're exploring using is [SquadOV](https://www.squadov.gg/). Setting up the program is explained pretty well through the website and associated Discord. Once you have the program installed, you'll want to join the OE Midweek squad using the following link: https://app.squadov.gg/link/Ejklt1BmtDkv",
+                "color": 16776960,
+                "timestamp": "2021-12-11T23:14:00.000Z"
+              },
+              {
+                "title": "Private Feedback Form",
+                "description": "You can use this link to provide feedback directly to the officer team. This form allows you to provide this feedback anonymously.",
+                "url": "https://docs.google.com/forms/d/e/1FAIpQLScHXHkbLp15IW9Dw8qziE8aVtMpuCP8XnDWP94quTpbioAfUw/viewform",
+                "color": 16711680,
+                "timestamp": "2022-01-08T23:05:00.000Z"
+              }
+            ]
+          },
+          "reference": ""
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "title": "Attendance Policy",
+                "description": "We ask that raiders update attendance as far in advance as possible to help prepare for comp. To do so, please post in the #oem-attendance channel of Discord. We are an adult guild and understand that circumstances may result in missing raid last minute.  If this happens, be sure to post in the Attendance channel in Discord AND message Babylonius so that we can adjust comp accordingly.  Note that excessive absences and/or multiple last-minute call-outs may result in removal from the team.",
+                "color": 14680319,
+                "timestamp": "2021-12-06T03:14:00.000Z"
+              },
+              {
+                "title": "The Alt Code",
+                "description": "**Alts are brought to raid on a case-by-case basis.**\n> *Alts are not made equal - different skills, different roles, different applications, different commitments. We have to make decisions in the best interest of the team and our time raiding.* \n**Alts should serve a fundamental purpose for the team.**\n> __*Main swaps and re-rolls for comp reasons are one the biggest ways that we can increase the strength of our team when facing new, challenging content. We make exceptions to fulfill these situations where we need to.*__\n**We will not guarantee GV tier unlocks for mains and alts simultaneously.**\n> *Raid comp Tetris is fun for approximately 2 weeks, and then it's not fun any more. Too often these fights just don't allow for a lot of variability in our class and player comps. If the paradigm of 3/6/9 GV is maintained through SL, the most we will make an effort to accommodate is 3x for main, 3x for alt.*\n**Alts cannot be a detriment to the raid - both in Progression and Farm.**\n> *We get it, alts are...well... alts for a reason. We don't expect 90+ percentile parses, but we do expect a minimum of Blue-level output performance, high survivability, and upward trajectory of overall performance of your alt. We don't require alts, so if you are going to have one and you're not making the effort, then neither is Leadership.*\n**Alts are held to the same standard as your main.**\n> *There is really no way around this. Our common commodity is time, don't waste it.*\n**Alts are not beyond redemption.**\n> *Sometimes, alts come in and just suck. It happens. If you find yourself in a place where your alt is in Alt Jail, give yourself an opportunity to get better at that alt, gather some data, and make your case to Leadership again.*",
+                "color": 14680319,
+                "timestamp": "2021-12-06T03:14:00.000Z"
+              }
+            ]
+          },
+          "reference": ""
+        }
+      ],
+      "targets": [
+        {
+          "url": "https://discord.com/api/webhooks/929511524941303848/ZqV5OudHBw1iaOU99_2MvE7HJBCbbR3bJGULhNnne4nr2-Yq22zv_-Be57vdzclyJUF3"
+        }
+      ]
+    },
+    {
+      "name": "OEM WA Quick Links",
+      "messages": [
+        {
+          "data": {
+            "content": "_ _\n__**WeakAura Quick Links**__",
+            "embeds": [
+              {
+                "title": "Remnant of Ner'zhul",
+                "description": "https://discord.com/channels/123870919578877952/852602739628048494/853737173952888852\n\n**Malevolence Helper**\nhttps://wago.io/mZ9WBRLCQ\n\n**Mass Dispel Countdown**\nhttps://wago.io/CrwNCtWEH",
+                "color": null,
+                "timestamp": "2021-12-06T04:31:00.000Z"
+              },
+              {
+                "title": "Soulrender Dormazain",
+                "description": "https://discord.com/channels/123870919578877952/852602975985467432/857295734553706536\n\n**Shackle Assignments**\nhttps://wago.io/Aua_WXlCE",
+                "color": null,
+                "timestamp": "2021-12-06T04:30:00.000Z"
+              },
+              {
+                "title": "Guardian of the First Ones",
+                "description": "https://discord.com/channels/123870919578877952/852604751559917649/862034766026506250\n\n**Threat Neutralization Assignments**\nhttps://wago.io/BmIqpKFhQ",
+                "color": null,
+                "timestamp": "2021-12-06T04:30:00.000Z"
+              },
+              {
+                "title": "Fatescribe Ruh-kalo",
+                "description": "https://discord.com/channels/123870919578877952/852604805633277973/857301514133700628\n\n**Runic Affinity Assignment List**\nhttps://wago.io/2JThfnb9V\n\n**Hellrix's Runic Affinity ExRT Personal**\nhttps://wago.io/jaGdba8A9",
+                "color": null,
+                "timestamp": "2021-12-06T04:30:00.000Z"
+              },
+              {
+                "title": "Sylvanas Windrunner",
+                "description": "https://discord.com/channels/123870919578877952/852604884238860288/862036824099913768\n\n**Sylvanas Mythic Halcyon Barbed Arrow LEFT/RIGHT**\nhttps://wago.io/p99rsw1p_\n\n**Dark Sentinel Fixate**\nhttps://wago.io/TWma7m21j",
+                "color": null,
+                "timestamp": "2021-12-06T04:30:00.000Z"
+              }
+            ]
+          },
+          "reference": "917271648313425930"
+        }
+      ],
+      "targets": [
+        {
+          "url": "https://discord.com/api/webhooks/917256320732770335/yhq2HTDfaa0JW-oenaRYS9pBfwKnmKuX1zuEYSuCCQL-1PHSfaJlxDFkFaM4mfKtWznK"
+        }
+      ]
+    },
+    {
+      "name": "OEM Sylvanas Tester",
+      "messages": [
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/fyG3ccZ.png"
+                }
+              },
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/RamOWPk.png"
+                }
+              },
+              {
+                "title": "Fight Notes",
+                "description": "*Maybe there is some copy that we can put into this place that talks about general fight notes. How do we want to utilize this space?*",
+                "color": null,
+                "fields": [
+                  {
+                    "name": "References",
+                    "value": "https://www.youtube.com/watch?v=rjNHqKOGLZE"
+                  },
+                  {
+                    "name": "Phase Timestamps",
+                    "value": "1. Phase 1 (80%) <Reference timestamp>\n2. Phase 2 (gauntlet) <Reference timestamp>\n3. Phase 3"
+                  }
+                ],
+                "timestamp": "2021-12-06T22:21:00.000Z"
+              },
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/M25xCv0.png"
+                }
+              },
+              {
+                "title": "Phase 1 Strategy Notes",
+                "description": "1. Barbed Arrow will randomly stack on players. This is a heavy dot with an infinite duration that stacks; think Kaal bleeds.\n2. Domination Arrows always chain to the closest person. Getting chained clears your Barbed Arrow bleed. We may need to use this to manage the dot, may not. On testing barbed arrow did not stack fast enough for this to matter.\n3. Veil of Darkness (the huge black circle) won’t kill you when you get hit, but if multiple people get clipped by it, the debuff will spread and cause massive healing problems. This can wipe us very fast and comes ~15s after chains spawn.\n4. You cannot melee your own domination arrow, if you get in melee range of it you will be instantly killed. You can melee anyone else’s arrow. This is important for the intermission at the end of p1 when everyone will get chained\n5. The tankbuster is unique on this fight. If she has 3 or more stacks of Heartseeker, she replaces her next auto attack with a tankbuster. This is annoyingly inconsistent.\n6. The arena is huge and wailing arrow’s falloff radius is similar to xymox bomb. Tanks don’t go too far with this or you’ll cause range issues.\n7. When the boss hits 80% we’ll get an intermission where every player is chained and the boss launches huge massacre style lines. She will also cast a Banshee wail which does damage based on missing HP and splashes within 5 yards, so some big throughput CDs will be saved for this phase.",
+                "color": null,
+                "fields": [
+                  {
+                    "name": "Failure Points",
+                    "value": "Spreading Veil of Darkness\nGetting pulled into your chain\nNot killing chains fast enough"
+                  },
+                  {
+                    "name": "Goals",
+                    "value": "Don’t push with chains alive"
+                  }
+                ]
+              },
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/XlEAuSa.png"
+                }
+              },
+              {
+                "title": "Phase 2 Strategy Notes",
+                "description": "Priority 1 - Souljudge - Crushing Dread does increasing damage over time, dispel jumps to a new target and resets stacks (removed on mob death).\nPriority 2 - Summoner - Summons 4 orbs that amp enemy damage every 6 seconds and minor explosion on death. Also have a moderate damage Curse that extends for every cast (stop casting or decurse)\nPriority 3 - Goliath - Damage/attack speed increase per melee (reset on new target like Hungering)\n(minor) Vanguard - does a minor melee impact (don’t tank on ranged)\n(minor) Hopebreaker - Does a channel (stun/grip)",
+                "color": null,
+                "fields": [
+                  {
+                    "name": "Platform Set 1",
+                    "value": "1. Start with Jaina Bridge and dodging waves while we cross\n2. Continue running+dodging across first chain platform\n3. After some RP, Thrall spawns a bridge. 10 seconds later she starts to cast ruin, which is a 5 sec cast that will instant wipe if not kicked."
+                  },
+                  {
+                    "name": "1st Burn",
+                    "value": "4. On this platform we dps Sylvanas from 84% to ~80%. She will continue to do Shadow Daggers and Veil of Darkness (see p1)\n5. At 75.5% she will cast a Banshee Wail. We need to spread on the chain platform for this and be topped off.\n6. There will be some RP while thrall spawns a bridge to a platform with adds.",
+                    "inline": true
+                  },
+                  {
+                    "name": "Platform Set 2",
+                    "value": "7. Platform 1 will have a Souljudge and a Goliath with multiple small adds. We have 30 seconds to clean up the adds and spawn a new bridge or we will wipe to ruin. There will be Veil of Night casts to dodge on this platform."
+                  },
+                  {
+                    "name": "2nd Burn",
+                    "value": "8. After all the adds are dead, Jaina will spawn a bridge which we again have 15 seconds to cross and kick. If we don’t kill the adds within 40s, Sylv will cast Ruin whether a bridge is spawned or not and wipe us.\n9. Platform 2 will have a Summoner and a Goliath with small adds. The same 30s limit applies here. We will get a Veil of Night on this platform.\n10. Once the adds on platform 2 are dead, but before crossing the bridge, sylvanas will cast a banshee wail, which we need to spread for. After that cast we will cross and kick again.",
+                    "inline": true
+                  },
+                  {
+                    "name": "Clean Up",
+                    "value": "11. Platform 3 (final) has Souljudge and a Summoner with small adds. This platform is the hardest of the 3. We will get a veil of night with orbs from the summoner as well as Crushing Dread from the souljudge. We will use big raid CDs here. The same 30s timer applies from earlier platforms.\n12. We cross another bridge and kick. We couldn’t find videos/logs beyond this point which weren’t bugged so after this is unknown."
+                  },
+                  {
+                    "name": "Failure Points",
+                    "value": "Spreading Veil of Darkness\nGetting hit by Haunting Wave"
+                  },
+                  {
+                    "name": "Goals",
+                    "value": "Don't Die"
+                  }
+                ]
+              },
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/rrwdmQi.png"
+                }
+              },
+              {
+                "title": "Phase 3 Strategy Notes",
+                "description": "**__WE ARE NOT JUMPING TO OTHER PLATFORMS TO DEAL WITH MECHANICS__**\n\n__1. Veil of Darkness (the black circle) will spawn on and follow two players. They cannot dodge it (might be able to immune/turtle it?), but everyone around them SHOULD dodge it. So if you are targeted by Veil of Darkness, stand still until you're hit by it. Once the debuff goes out, you will need to move into the raid group to survive Wailing Arrow, so spreading this in P3 is unavoidable.__\n\n2. The tankbuster in this phase behaves the same as p1, except stacks are permanent and dispellable. Being dispelled drops a puddle that can be picked up by running into it again. Tanks will have to control these to minimize space usage.\n\n3.  For Wailing Arrow, the raid will stack in the corner closest to the center platform, while the 3 targets will go to each other corner (first targetted goes left, 2nd targeted goes middle, 3rd targeted goes right).",
+                "color": null,
+                "fields": [
+                  {
+                    "name": "Ability Order Per Platform",
+                    "value": "1. Bane Arrows (dodge)\n2. Shadow Dagger (dodge)\n3. Banshee's Scream x2 - 5 seconds apart (spread and STAY SPREAD until Veil of Darkness is out)\n4. Veil of Darkness\n5. Wailing Arrow x3 staggered\n6. Shadow Dagger (dodge)\n7. Bane Arrows (dodge)\n8. Banshee's Fury (dispel stacks)\n9. Raze"
+                  },
+                  {
+                    "name": "Failure Points",
+                    "value": "- getting hit by Veil of Darkness if you're not targeted (spreading is intended on the two targets hit).\n- Having lots of stacks of Banshee’s Bane during Banshee’s Fury\n- Cleaving Banshee’s Scream"
+                  },
+                  {
+                    "name": "Goals",
+                    "value": "1. Manage Banshees Bane pools well"
+                  }
+                ]
+              }
+            ]
+          },
+          "reference": ""
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/l5aAbMk.png"
+                }
+              },
+              {
+                "title": "WeakAuras",
+                "color": 16711680,
+                "fields": [
+                  {
+                    "name": "Sylvanas Mythic Halcyon Barbed Arrow LEFT/RIGHT",
+                    "value": "https://wago.io/p99rsw1p_"
+                  },
+                  {
+                    "name": "Dark Sentinel Fixate",
+                    "value": "https://wago.io/TWma7m21j"
+                  }
+                ]
+              }
+            ]
+          },
+          "reference": ""
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/BKkuCrW.png"
+                }
+              },
+              {
+                "title": "Speed Boosts",
+                "color": 16711680,
+                "fields": [
+                  {
+                    "name": "P1",
+                    "value": "Windrunner 1 - Milksupply\nVeil 1 - Atsuu\nWindrunner 2 - Ripburst\nVeil 2 - Zhot\nWindrunner 3 - \nVeil 3 - Milksupply\nWindrunner 4 - Avatardan",
+                    "inline": true
+                  },
+                  {
+                    "name": "P2",
+                    "value": "Start of split 1 - Atsuu\nSplit 1 veils - Zhot/Ripburst\nStart of split 2 - Milksupply\nSplit 2 veils - Atsuu/Avatardan",
+                    "inline": true
+                  },
+                  {
+                    "name": "P3",
+                    "value": "3rd platform immunity soaks - Milksupply\n3rd platform assigned soaks - Zhot"
+                  }
+                ]
+              },
+              {
+                "title": "Phase 3 Platform Positions",
+                "description": "1: Zarantai\n2: Jakerator\n3: Ugmo\n4: Draddog\n5: Sethera\n6: Shamlessness\n7: Sandwichman\n8: Darlayys\n9: Oglethorny\n10: Babylonius\n11: Seaborg\n12: Milksupply\n13: Celinamuna\n14: Nxkita\n15: Kartra\n16: Edennill\n17: Zhot\n18: Atsuu\n19: Schlimmy\n20: Cleoboltra",
+                "color": 16711680,
+                "image": {
+                  "url": "https://media.discordapp.net/attachments/852604884238860288/892130285846683668/sylv_template.png?width=960&height=540"
+                }
+              }
+            ]
+          },
+          "reference": ""
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "title": "Pre-Fight Checklist",
+                "description": "> Check your Dom shards, switch your blood dps shard for the frost shield shards\n> Vantus rune\n> Interrupt macro \n> Bait the first jump\n> Chains>Sentinels>Sylvanas\n> Check ert for sides on P2 chains\n> Decurse on P2 chains (right side splits)\n> Check Merciless soaks and veil spread spots",
+                "color": null
+              }
+            ]
+          },
+          "reference": ""
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "title": "Change Log",
+                "color": null,
+                "fields": [
+                  {
+                    "name": "**1.0.3 (11/8/21) : FARM UPDATE**",
+                    "value": "Updates to come for speed strat."
+                  }
+                ]
+              }
+            ]
+          },
+          "reference": ""
+        }
+      ],
+      "targets": [
+        {
+          "url": "https://discord.com/api/webhooks/917245525378629682/in1Fi1HmzDFUVJ9QBXdq6XFXoO4mgQ3cA0WORgc5es8x198tZ0U6-td3L8jizO1uAZd5"
+        }
+      ]
+    },
+    {
+      "name": "SotFO Template",
+      "messages": [
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/hvbKdFN.png"
+                }
+              },
+              {
+                "title": "Fight Notes",
+                "description": "*Maybe there is some copy that we can put into this place that talks about general fight notes. How do we want to utilize this space?*",
+                "color": null,
+                "fields": [
+                  {
+                    "name": "References",
+                    "value": "Lorem Ipsum"
+                  },
+                  {
+                    "name": "Phase Timestamps",
+                    "value": "Lorem Ipsum"
+                  }
+                ],
+                "timestamp": "2021-12-06T22:21:00.000Z"
+              },
+              {
+                "color": 10092543,
+                "image": {
+                  "url": "https://i.imgur.com/vr5qUH1.png"
+                }
+              },
+              {
+                "title": "Phase 1",
+                "description": "Lorem Ipsum",
+                "color": 10092543,
+                "fields": [
+                  {
+                    "name": "Failure Points",
+                    "value": "Lorem Ipsum"
+                  },
+                  {
+                    "name": "Goals",
+                    "value": "Lorem Ipsum"
+                  }
+                ]
+              },
+              {
+                "title": "Phase 2",
+                "description": "Lorem Ipsum",
+                "color": 10092543,
+                "fields": [
+                  {
+                    "name": "Lorem Ipsum 1",
+                    "value": "Lorem Ipsum 1"
+                  },
+                  {
+                    "name": "Loreum Ipsum 2",
+                    "value": "Loreum Ipsum 2",
+                    "inline": true
+                  },
+                  {
+                    "name": "Lorem Ipsum 3",
+                    "value": "Lorem Ipsum 3"
+                  },
+                  {
+                    "name": "Lorem Ipsum 4",
+                    "value": "Lorem Ipsum 4",
+                    "inline": true
+                  },
+                  {
+                    "name": "Lorem Ipsum 5",
+                    "value": "Lorem Ipsum 5"
+                  },
+                  {
+                    "name": "Lorem Ipsum 6",
+                    "value": "Lorem Ipsum 6"
+                  },
+                  {
+                    "name": "Lorem Ipsum 7",
+                    "value": "Loreum Ipsum 7"
+                  }
+                ]
+              },
+              {
+                "title": "Phase 3 Strategy Notes",
+                "description": "Loreum Ipsum",
+                "color": 10092543,
+                "fields": [
+                  {
+                    "name": "Lorem Ipsum 1",
+                    "value": "Lorem Ipsum 1"
+                  },
+                  {
+                    "name": "Lorem Ipsum 2",
+                    "value": "Lorem Ipsum 2"
+                  },
+                  {
+                    "name": "Lorem Ipsum 3",
+                    "value": "Lorem Ipsum 3"
+                  }
+                ]
+              }
+            ]
+          },
+          "reference": ""
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": 16750899,
+                "image": {
+                  "url": "https://i.imgur.com/9fJkXzv.png"
+                }
+              },
+              {
+                "title": "Lorem Ipsum",
+                "color": 16750899,
+                "fields": [
+                  {
+                    "name": "Lorem Ipsum 1",
+                    "value": "Lorem Ipsum 1"
+                  },
+                  {
+                    "name": "Lorem Ipsum 2",
+                    "value": "Lorem Ipsum 2"
+                  }
+                ]
+              }
+            ]
+          },
+          "reference": ""
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": 10092543,
+                "image": {
+                  "url": "https://i.imgur.com/pY5Ci4Y.png"
+                }
+              },
+              {
+                "title": "Lorem Ipsum 1",
+                "color": 10092543,
+                "fields": [
+                  {
+                    "name": "Lorem Ipsum 1",
+                    "value": "Lorem Ipsum 1"
+                  },
+                  {
+                    "name": "Lorem Ipsum 2",
+                    "value": "Lorem Ipsum 2",
+                    "inline": true
+                  },
+                  {
+                    "name": "Lorem Ipsum 3",
+                    "value": "Lorem Ipsum 3"
+                  }
+                ]
+              }
+            ]
+          },
+          "reference": ""
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/XEIXNtq.png"
+                }
+              },
+              {
+                "title": "Lorem Ipsum",
+                "description": "Lorem Ipsum",
+                "color": null
+              }
+            ]
+          },
+          "reference": ""
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/nkc6E7I.png"
+                }
+              },
+              {
+                "title": "Change Log",
+                "color": null,
+                "fields": [
+                  {
+                    "name": "**1.0.3 (11/8/21) : FARM UPDATE**",
+                    "value": "Updates to come for speed strat."
+                  }
+                ]
+              }
+            ]
+          },
+          "reference": ""
+        }
+      ],
+      "targets": [
+        {
+          "url": "https://discord.com/api/webhooks/917245525378629682/in1Fi1HmzDFUVJ9QBXdq6XFXoO4mgQ3cA0WORgc5es8x198tZ0U6-td3L8jizO1uAZd5"
+        }
+      ]
+    },
+    {
+      "name": "Vigilant Guardian",
+      "messages": [
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/hvbKdFN.png"
+                }
+              },
+              {
+                "title": "Fight Notes",
+                "description": "Kill adds near Automa to power up the shield. \nGet in the shield during exposed core. \nSlam cores into boss after the exposed core. \nLust at 15%, burn boss.",
+                "color": null,
+                "fields": [
+                  {
+                    "name": "Phase Timestamps",
+                    "value": "Phase 1: (Heroic) Just adds. (Mythic) Adds and Boss are active.\nPhase 2: 15% Roughly 7-8 minutes into the fight"
+                  },
+                  {
+                    "name": "References",
+                    "value": "Heroic PTR Testing: <https://youtu.be/pZ2J0QkSowM>\nMythic PTR Testing:  <https://youtu.be/yyycvURrrtI>"
+                  }
+                ]
+              },
+              {
+                "description": "Heroic Automa Locations",
+                "color": null,
+                "image": {
+                  "url": "https://imgur.com/F2xEXPA.png"
+                }
+              },
+              {
+                "description": "Mythic Automa Locations",
+                "color": null,
+                "image": {
+                  "url": "https://imgur.com/kEkiA9Z.png"
+                }
+              },
+              {
+                "color": 10092543,
+                "image": {
+                  "url": "https://i.imgur.com/vr5qUH1.png"
+                }
+              },
+              {
+                "title": "Phase 1",
+                "color": 10092543,
+                "fields": [
+                  {
+                    "name": "Refracted Blast",
+                    "value": "Targeted Ground AOE. Creates a Spike of Creation on mythic. \nhttps://imgur.com/1FM1307"
+                  },
+                  {
+                    "name": "Deresolution",
+                    "value": "Red arrow targeted at a player, small line of explosions along that line shortly after."
+                  },
+                  {
+                    "name": "Exposed Core",
+                    "value": "Get into the shield created by the automa, and slam the core that spawns after into the boss using extra action button. \n*Imagine Guardian shield, with a Remnant orb to dunk after*"
+                  },
+                  {
+                    "name": "Split Resolution",
+                    "value": "Slam of a star pattern on the ground resonating from the tank, explodes shortly after."
+                  },
+                  {
+                    "name": "Wave of Disintegration",
+                    "value": "Frontal from the Prefabricated Sentry add. Shoots a line of ground AoE that explodes after a small delay."
+                  },
+                  {
+                    "name": "Matter Dissolution",
+                    "value": "Debuff that is applied to several players, get out of the group. After the debuff wears off, a group of orbs will spawn around that player and travel towards a point."
+                  },
+                  {
+                    "name": "Spikes of Creation __***MYTHIC ONLY***__",
+                    "value": "These are similar to Painsmith Traps. Stacking debuff, need to stay on top of popping them without chaining the debuff too high."
+                  }
+                ]
+              },
+              {
+                "title": "Phase 2",
+                "description": "Pool cooldowns for this phase. \nWill have a defensive/CD rotation to survive the ramping damage.",
+                "color": 10092543
+              }
+            ]
+          },
+          "reference": "https://canary.discord.com/channels/123870919578877952/912118397607747624/932159280877039687"
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": 16750899,
+                "image": {
+                  "url": "https://i.imgur.com/9fJkXzv.png"
+                }
+              },
+              {
+                "title": "Weakauras",
+                "color": 16750899,
+                "fields": [
+                  {
+                    "name": "Spikes of Creation Debuff counter",
+                    "value": "Lorem Ipsum 1"
+                  },
+                  {
+                    "name": "Matter Dissolution Debuff",
+                    "value": "Lorem Ipsum 2"
+                  }
+                ]
+              }
+            ]
+          },
+          "reference": "https://canary.discord.com/channels/123870919578877952/912118397607747624/932159281933975612"
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": 10092543,
+                "image": {
+                  "url": "https://i.imgur.com/pY5Ci4Y.png"
+                }
+              },
+              {
+                "color": 10092543,
+                "fields": [
+                  {
+                    "name": "Heroic:",
+                    "value": "Lorem Ipsum 1"
+                  },
+                  {
+                    "name": "Mythic",
+                    "value": "Lorem Ipsum 2",
+                    "inline": true
+                  }
+                ]
+              }
+            ]
+          },
+          "reference": "https://canary.discord.com/channels/123870919578877952/912118397607747624/932159282605076530"
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/XEIXNtq.png"
+                }
+              },
+              {
+                "title": "Lorem Ipsum",
+                "description": "Lorem Ipsum",
+                "color": null
+              }
+            ]
+          },
+          "reference": "https://canary.discord.com/channels/123870919578877952/912118397607747624/932159283116802088"
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/nkc6E7I.png"
+                }
+              },
+              {
+                "title": "Change Log",
+                "color": null,
+                "fields": [
+                  {
+                    "name": "**1.0.0 (1/17/21) : ROUNDTABLE UPDATE**",
+                    "value": "Intial Strat"
+                  }
+                ]
+              }
+            ]
+          },
+          "reference": "https://canary.discord.com/channels/123870919578877952/912118397607747624/932159283754336328"
+        }
+      ],
+      "targets": [
+        {
+          "url": "https://canary.discord.com/api/webhooks/917245525378629682/in1Fi1HmzDFUVJ9QBXdq6XFXoO4mgQ3cA0WORgc5es8x198tZ0U6-td3L8jizO1uAZd5"
+        }
+      ]
+    },
+    {
+      "name": "Dausegne",
+      "messages": [
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/hvbKdFN.png"
+                }
+              },
+              {
+                "title": "Fight Notes",
+                "description": "Adds need to be focused.\nStaggering Barrages will have two soak groups assigned.\nDrop your debuff before crossing Disintegration Halo. \n(Night fae/Venthyr/Blinks/Teleports all work)\nBreak boss shield ASAP.",
+                "color": null,
+                "fields": [
+                  {
+                    "name": "Phase Timestamps",
+                    "value": "Shield Timings: 1:20, 3:20, 5:30"
+                  },
+                  {
+                    "name": "References",
+                    "value": "Heroic PTR Testing: <https://youtu.be/UB0Qe76q-EY>\nMythic PTR Testing:  <https://youtu.be/fWS6Gq6frao>"
+                  }
+                ]
+              },
+              {
+                "title": "Mythic Halo Crossing",
+                "description": "Start at Square, and move counter clockwise around the room. Cross the halos as soon as possible, while allowing your debuff to drop before crossing another.",
+                "color": null,
+                "image": {
+                  "url": "https://imgur.com/ANaS0pI.png"
+                }
+              },
+              {
+                "color": 10092543,
+                "image": {
+                  "url": "https://i.imgur.com/vr5qUH1.png"
+                }
+              },
+              {
+                "title": "Phase 1",
+                "color": 10092543,
+                "fields": [
+                  {
+                    "name": "Domination Core",
+                    "value": "Add that needs to be focused, drops puddles."
+                  },
+                  {
+                    "name": "Obliteration Arc",
+                    "value": "Frontal that targets a random player, can be baited. Shoots out a fan of lines that look similar to massacre."
+                  },
+                  {
+                    "name": "Disintegration Halo",
+                    "value": "Large ring that grows across the platform, when crossing it will apply a 6 second debuff that will kill you if you cross another halo. Does a 3 yard splash when you cross on mythic."
+                  },
+                  {
+                    "name": "Staggering Barrage",
+                    "value": "Line soak similiar to night hunter from Sire. 2 Groups will be assigned to soak this."
+                  },
+                  {
+                    "name": "Siphon Reservoir",
+                    "value": "Boss will teleport and put up a large shield. Stack for healing cds and break the shield."
+                  },
+                  {
+                    "name": "Inevitable Dominion",
+                    "value": "Large raid wide damage. Pools left from the adds will grow during this channel. Stops when the shield is broken."
+                  }
+                ]
+              }
+            ]
+          },
+          "reference": "https://canary.discord.com/channels/123870919578877952/912118469263253585/932839318509199410"
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": 16750899,
+                "image": {
+                  "url": "https://i.imgur.com/9fJkXzv.png"
+                }
+              },
+              {
+                "title": "Weakauras",
+                "color": 16750899,
+                "fields": [
+                  {
+                    "name": "Staggering Barrage Weakaura/Debuff Tracker",
+                    "value": "Nikita: https://wago.io/D92gXEzWM"
+                  },
+                  {
+                    "name": "Disintegration Halo Debuff Tracker",
+                    "value": "Nikita: https://wago.io/7w5pit0tr"
+                  }
+                ]
+              }
+            ]
+          },
+          "reference": "https://canary.discord.com/channels/123870919578877952/912118469263253585/932839319343865866"
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": 10092543,
+                "image": {
+                  "url": "https://i.imgur.com/pY5Ci4Y.png"
+                }
+              },
+              {
+                "color": 10092543,
+                "fields": [
+                  {
+                    "name": "Heroic:",
+                    "value": "Lorem Ipsum 1"
+                  },
+                  {
+                    "name": "Mythic",
+                    "value": "Lorem Ipsum 2",
+                    "inline": true
+                  }
+                ]
+              }
+            ]
+          },
+          "reference": "https://canary.discord.com/channels/123870919578877952/912118469263253585/932839320224661514"
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/XEIXNtq.png"
+                }
+              },
+              {
+                "title": "Lorem Ipsum",
+                "description": "Lorem Ipsum",
+                "color": null
+              }
+            ]
+          },
+          "reference": "https://canary.discord.com/channels/123870919578877952/912118469263253585/932839321302605855"
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/nkc6E7I.png"
+                }
+              },
+              {
+                "title": "Change Log",
+                "color": null,
+                "fields": [
+                  {
+                    "name": "**1.0.0 (1/17/21) : ROUNDTABLE UPDATE**",
+                    "value": "Intial Strat"
+                  }
+                ]
+              }
+            ]
+          },
+          "reference": "https://canary.discord.com/channels/123870919578877952/912118469263253585/932839322250514462"
+        }
+      ],
+      "targets": [
+        {
+          "url": "https://canary.discord.com/api/webhooks/932806248221540372/jg8J1HmbtK7IbfOMOg7ALMM4JCpCzt55kLqGLcoqmTG2-N2aVtM0wyipGFXnTM1eRYPm"
+        }
+      ]
+    },
+    {
+      "name": "Lihuvim Principal Architect",
+      "messages": [
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/hvbKdFN.png"
+                }
+              },
+              {
+                "title": "Fight Notes",
+                "description": "Priorities are to take care of adds and keep the room as clear of motes as possible. Boss is last priority.",
+                "color": null,
+                "fields": [
+                  {
+                    "name": "Phase Timestamps",
+                    "value": "1st add spawn: 0:35\n2nd add spawn: 3:10\n3rd add spawn 5:35\n4th add spawn 8:10"
+                  },
+                  {
+                    "name": "References",
+                    "value": "Heroic PTR Testing: <https://youtu.be/cxi7ucUlzIU>\nMythic PTR Testing: <https://youtu.be/ohu4saBzzEY>\nMythic PTR Log: <https://www.warcraftlogs.com/reports/B4MJbrhTjp8qNXtP#fight=last&translate=true>"
+                  }
+                ]
+              },
+              {
+                "title": "Add Order:",
+                "color": null,
+                "fields": [
+                  {
+                    "name": "Heroic:",
+                    "value": "TBD"
+                  },
+                  {
+                    "name": "Mythic:",
+                    "value": "Close Right > Back Left > Back Right > Back Left"
+                  }
+                ],
+                "image": {
+                  "url": "https://imgur.com/qb8ySoF.png"
+                }
+              },
+              {
+                "color": 10092543,
+                "image": {
+                  "url": "https://i.imgur.com/vr5qUH1.png"
+                }
+              },
+              {
+                "title": "Phase 1",
+                "color": 10092543,
+                "fields": [
+                  {
+                    "name": "Protoform Cascade",
+                    "value": "Frontal cone, dodgable."
+                  },
+                  {
+                    "name": "Cosmic Shift",
+                    "value": "Light damage and small knockback."
+                  },
+                  {
+                    "name": "Manifest Mote",
+                    "value": "Small AoE put on several players, after a few seconds it will drop off the player and form a mote. Motes will explode if touched after forming, but can be removed by deconstructing blast."
+                  },
+                  {
+                    "name": "Deconstructing Blast",
+                    "value": "Targeted AoE on players, used to clear motes."
+                  },
+                  {
+                    "name": "Protoform Automa",
+                    "value": "Large pulsing damage while the adds are forming in the cubbies. Adds will have a circle around them to reduce damage by 90%."
+                  },
+                  {
+                    "name": "Adds",
+                    "value": "Degeneration Automa: Medium AOE damage during degenerate.\nAcquisitions Automa: 40 yd Burst AOE and knockback on death.\nGuardian Automa: Think Guardian(SOD) sentries.\nDefense Matrix Automa: 75% dmg reduction shield for allies."
+                  }
+                ]
+              }
+            ]
+          },
+          "reference": "https://canary.discord.com/channels/123870919578877952/912118767750889524/942580849679945768"
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": 16750899,
+                "image": {
+                  "url": "https://i.imgur.com/9fJkXzv.png"
+                }
+              },
+              {
+                "title": "Weakauras",
+                "color": 16750899,
+                "fields": [
+                  {
+                    "name": "Unstable Mote/Deconstructing Blast Tracker",
+                    "value": "TBD"
+                  }
+                ]
+              }
+            ]
+          },
+          "reference": "https://canary.discord.com/channels/123870919578877952/912118767750889524/942580850497847346"
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": 10092543,
+                "image": {
+                  "url": "https://i.imgur.com/pY5Ci4Y.png"
+                }
+              },
+              {
+                "color": 10092543,
+                "fields": [
+                  {
+                    "name": "Heroic:",
+                    "value": "Lorem Ipsum 1"
+                  },
+                  {
+                    "name": "Mythic",
+                    "value": "Lorem Ipsum 2",
+                    "inline": true
+                  }
+                ]
+              }
+            ]
+          },
+          "reference": "https://canary.discord.com/channels/123870919578877952/912118767750889524/942580851160530974"
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/XEIXNtq.png"
+                }
+              },
+              {
+                "title": "Lorem Ipsum",
+                "description": "Lorem Ipsum",
+                "color": null
+              }
+            ]
+          },
+          "reference": "https://canary.discord.com/channels/123870919578877952/912118767750889524/942580851886141480"
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/nkc6E7I.png"
+                }
+              },
+              {
+                "title": "Change Log",
+                "color": null,
+                "fields": [
+                  {
+                    "name": "**1.0.0 (2/13/21) : ROUNDTABLE UPDATE**",
+                    "value": "Intial Strat"
+                  }
+                ]
+              }
+            ]
+          },
+          "reference": "https://canary.discord.com/channels/123870919578877952/912118767750889524/942580852863426630"
+        }
+      ],
+      "targets": [
+        {
+          "url": "https://canary.discord.com/api/webhooks/942580668456640572/PH3ADryNme0F2MmUcXYS8fDVZXzdahHuynHcDsXUa4Rg_7SDSwXzIlU7p9EpFK-5VLRH"
+        }
+      ]
+    },
+    {
+      "name": "Artificer Xy'mox",
+      "messages": [
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/hvbKdFN.png"
+                }
+              },
+              {
+                "title": "Fight Notes",
+                "description": "Stack Traps as best we can. Cannot immune this time around. Instant Re-arm.\nKeep Adds under control in the intermission. Acolyte > Spellslingers\nDodge waves using portals.",
+                "color": null,
+                "fields": [
+                  {
+                    "name": "Phase Timestamps",
+                    "value": "Phase 1: 80%\nPhase 2: 50%\nPhase 3: 30% Lust this Phase"
+                  },
+                  {
+                    "name": "References",
+                    "value": "Heroic PTR Testing: <https://youtu.be/bGU0iDClgxQ>\nMythic PTR Testing:  <https://youtu.be/yCdv4anSATQ>"
+                  }
+                ]
+              },
+              {
+                "title": "Heroic Portal Drops",
+                "color": null,
+                "image": {
+                  "url": "https://imgur.com/WQkFQjR.png"
+                }
+              },
+              {
+                "title": "Mythic Portal Drops",
+                "color": null,
+                "image": {
+                  "url": "https://imgur.com/9g7DpIM.png"
+                }
+              },
+              {
+                "color": 10092543,
+                "image": {
+                  "url": "https://i.imgur.com/vr5qUH1.png"
+                }
+              },
+              {
+                "title": "Phase 1, 2, & 3",
+                "color": 10092543,
+                "fields": [
+                  {
+                    "name": "Forerunner Rings",
+                    "value": "Rings that come from outside or middle, use wormhole/immunities/door of shadows to cross. Turtle did not work, blink/nightfae is very hard to cross (similar to Eye of the Jailer beams)"
+                  },
+                  {
+                    "name": "Fracturing Rift Blasts",
+                    "value": "Similar to Castle Nathria, long beams targeted on players."
+                  },
+                  {
+                    "name": "Wormholes",
+                    "value": "Similar function to Castle Nathria, Portal drop locations are pictured above. Used to cross to the platforms on mythic difficulty."
+                  },
+                  {
+                    "name": "Stasis Trap",
+                    "value": "Similar to Castle Nathria, except they will re-arm immediately upon triggering this time. Immunities do not clear them. Targeted on Players and need to be baited well to keep floor space clear."
+                  },
+                  {
+                    "name": "Hyperlight Sparknova",
+                    "value": "Similar to Castle Nathria, except it has a 3 yd splash now. Need to spread before each set of these."
+                  },
+                  {
+                    "name": "Glyph of Relocation",
+                    "value": "Tank Debuff, pulls the entire raid to the tank when it expires. Make sure you are safe to get pulled in before this goes off because it can pull you through portals/traps. Often paired with Glyph of Relocation, so quick spread after the pull in."
+                  },
+                  {
+                    "name": "Platforms ___***MYTHIC ONLY***___",
+                    "value": "During each phase, adds will spawn on one of the three platforms around the room. Raid will need to use the Wormholes dropped by using a warlock gateway to cross. Kill the adds and return to the main platform before the Forerunner rings and the platform collapse."
+                  }
+                ]
+              },
+              {
+                "title": "Intermission",
+                "description": "Adds will spawn. Priority is Acolyte > Spellslingers\nAcolytes have a large frontal cone and transform and do a large pulsing AoE if not killed fast enough. \nSpellslingers will need to be interrupted or stunned.",
+                "color": 10092543
+              }
+            ]
+          },
+          "reference": "https://canary.discord.com/channels/123870919578877952/912118503404888081/942862431426854912"
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": 16750899,
+                "image": {
+                  "url": "https://i.imgur.com/9fJkXzv.png"
+                }
+              },
+              {
+                "title": "Weakauras",
+                "color": 16750899,
+                "fields": [
+                  {
+                    "name": "Wormhole Debuff",
+                    "value": "TBD"
+                  },
+                  {
+                    "name": "Stasis Trap Drop Warning",
+                    "value": "TBD"
+                  },
+                  {
+                    "name": "Hyperlight Sparknova Spread",
+                    "value": "TBD"
+                  },
+                  {
+                    "name": "Glyph of Relocation Pull Warning",
+                    "value": "TBD"
+                  }
+                ]
+              }
+            ]
+          },
+          "reference": "https://canary.discord.com/channels/123870919578877952/912118503404888081/942862432622215219"
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": 10092543,
+                "image": {
+                  "url": "https://i.imgur.com/pY5Ci4Y.png"
+                }
+              },
+              {
+                "color": 10092543,
+                "fields": [
+                  {
+                    "name": "Heroic:",
+                    "value": "Lorem Ipsum 1"
+                  },
+                  {
+                    "name": "Mythic",
+                    "value": "Lorem Ipsum 2",
+                    "inline": true
+                  }
+                ]
+              }
+            ]
+          },
+          "reference": "https://canary.discord.com/channels/123870919578877952/912118503404888081/942862433779867648"
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/XEIXNtq.png"
+                }
+              },
+              {
+                "title": "Lorem Ipsum",
+                "description": "Lorem Ipsum",
+                "color": null
+              }
+            ]
+          },
+          "reference": "https://canary.discord.com/channels/123870919578877952/912118503404888081/942862434740346920"
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/nkc6E7I.png"
+                }
+              },
+              {
+                "title": "Change Log",
+                "color": null,
+                "fields": [
+                  {
+                    "name": "**1.0.0 (2/14/21) : ROUNDTABLE UPDATE**",
+                    "value": "Intial Strat"
+                  }
+                ]
+              }
+            ]
+          },
+          "reference": "https://canary.discord.com/channels/123870919578877952/912118503404888081/942862435625353227"
+        }
+      ],
+      "targets": [
+        {
+          "url": "https://canary.discord.com/api/webhooks/942844727198359552/4MwBvuh-I3fcAPC5xzfGvORytGfXjHj73ls-TGtRRw7kCSoj_p7TJBI5a-vGWwh-ZKlA"
+        }
+      ]
+    },
+    {
+      "name": "Skolex the Insatiable Ravener",
+      "messages": [
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/hvbKdFN.png"
+                }
+              },
+              {
+                "title": "Fight Notes",
+                "description": "Groups of 3 players to bait Dust Blast, being the farthest away from boss.\nDodge, Dodge, Dodge.",
+                "color": null,
+                "fields": [
+                  {
+                    "name": "Phase Timestamps",
+                    "value": "No true phases. \nBoss gains increased damage each time we reset our debuffs by stacking."
+                  },
+                  {
+                    "name": "References",
+                    "value": "Heroic PTR Testing: <https://youtu.be/z9y6LBOaoQE>\nMythic PTR Testing:  <https://youtu.be/SJ6TbA4jfoU>"
+                  }
+                ]
+              },
+              {
+                "title": "Basic Positioning",
+                "color": null,
+                "image": {
+                  "url": "https://imgur.com/Uoy1fAZ.png"
+                }
+              },
+              {
+                "color": 10092543,
+                "image": {
+                  "url": "https://i.imgur.com/vr5qUH1.png"
+                }
+              },
+              {
+                "title": "Phase 1",
+                "color": 10092543,
+                "fields": [
+                  {
+                    "name": "Ephemera Dust",
+                    "value": "Debuff applied by all of Skolex's abilities, stacks and cannot be removed by immunes. Removed when forcing a burrow, but increases boss damage for the rest of the fight."
+                  },
+                  {
+                    "name": "Dust Blast",
+                    "value": "Single targeted splash damage on the farthest three players from Skolex. Needs to be baited by three spread players and applies Ephemera Dust. Will be groups of ranged/healers rotating to bait this."
+                  },
+                  {
+                    "name": "Retch",
+                    "value": "Large frontal cone targeted on a random player, if hit, deals a large amount of damage, stuns, and teleports the player to a random location."
+                  },
+                  {
+                    "name": "Volatile Residue ___***MYTHIC ONLY***___",
+                    "value": "Players hit by puddles or frontals will leave a blue puddle on the ground for the rest of the fight."
+                  },
+                  {
+                    "name": "Devouring Blood ___***MYTHIC ONLY***___",
+                    "value": "Skolex throws out puddles, if they hit a player they become permanent and reduce that players haste by 33% for 18 seconds as well as a heavy dot."
+                  },
+                  {
+                    "name": "Rend/Riftmaw",
+                    "value": "Tank combo with a large frontal cone, similar to Aggramar/Shad'har/Guardian tank combo."
+                  }
+                ]
+              },
+              {
+                "title": "Debuff Reset",
+                "color": 10092543,
+                "fields": [
+                  {
+                    "name": "Ravening Burrow",
+                    "value": "Entire raid stacks, Boss will burrow. Dodge the blue circle, stay in the brown circle. Resets debuffs, but buffs boss damage."
+                  }
+                ]
+              }
+            ]
+          },
+          "reference": "https://canary.discord.com/channels/123870919578877952/912118655930744862/942867805404016760"
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": 16750899,
+                "image": {
+                  "url": "https://i.imgur.com/9fJkXzv.png"
+                }
+              },
+              {
+                "title": "Weakauras",
+                "color": 16750899,
+                "fields": [
+                  {
+                    "name": "Ephemera Dust Tracker",
+                    "value": "TBD"
+                  },
+                  {
+                    "name": "Dust Blast Group Soak Order",
+                    "value": "TBD"
+                  },
+                  {
+                    "name": "Rend/Riftmaw Combo",
+                    "value": "TBD"
+                  }
+                ]
+              }
+            ]
+          },
+          "reference": "https://canary.discord.com/channels/123870919578877952/912118655930744862/942867806297391225"
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": 10092543,
+                "image": {
+                  "url": "https://i.imgur.com/pY5Ci4Y.png"
+                }
+              },
+              {
+                "color": 10092543,
+                "fields": [
+                  {
+                    "name": "Heroic:",
+                    "value": "Lorem Ipsum 1"
+                  },
+                  {
+                    "name": "Mythic",
+                    "value": "Lorem Ipsum 2",
+                    "inline": true
+                  }
+                ]
+              }
+            ]
+          },
+          "reference": "https://canary.discord.com/channels/123870919578877952/912118655930744862/942867807262113802"
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/XEIXNtq.png"
+                }
+              },
+              {
+                "title": "Lorem Ipsum",
+                "description": "Lorem Ipsum",
+                "color": null
+              }
+            ]
+          },
+          "reference": "https://canary.discord.com/channels/123870919578877952/912118655930744862/942867808608477264"
+        },
+        {
+          "data": {
+            "content": null,
+            "embeds": [
+              {
+                "color": null,
+                "image": {
+                  "url": "https://i.imgur.com/nkc6E7I.png"
+                }
+              },
+              {
+                "title": "Change Log",
+                "color": null,
+                "fields": [
+                  {
+                    "name": "**1.0.0 (2/14/21) : ROUNDTABLE UPDATE**",
+                    "value": "Intial Strat"
+                  }
+                ]
+              }
+            ]
+          },
+          "reference": "https://canary.discord.com/channels/123870919578877952/912118655930744862/942867808990146654"
+        }
+      ],
+      "targets": [
+        {
+          "url": "https://canary.discord.com/api/webhooks/942867668078329876/6qpEWr8Of9lLm1Q5674Pub61KtheO7Vy38HbTITai9OMfWy-tRjZ2fYwaanCtyWPqpiV"
+        }
+      ]
+    }
+  ]
+}
